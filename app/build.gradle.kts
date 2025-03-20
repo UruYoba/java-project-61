@@ -31,6 +31,7 @@ tasks.getByName("run", JavaExec::class) {
 }
 
 sonar {
+
     properties {
         property("sonar.projectKey", "UruYoba_java-project-61")
         property("sonar.organization", "uruyoba")
